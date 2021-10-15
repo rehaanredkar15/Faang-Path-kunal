@@ -1,0 +1,23 @@
+class Solution {
+    public int diagonalSum(int[][] mat) {
+        int start = 0;
+        int end = mat[0].length - 1;
+        int total = 0;
+        for(int i = 0;i<mat.length;i++)
+        {
+            if(start != end )
+            {
+                total = total +  mat[i][start] + mat[i][end];
+            }
+            else
+            {
+                 total = total +  mat[i][start];
+            }
+           
+            start++;
+            end--;
+        }
+        
+        return total;
+    }
+}
