@@ -13,3 +13,6 @@ This repository contains the problems solved for faangpath video series of kunal
 10. [Check if the Sentence Is Pangram](https://leetcode.com/problems/check-if-the-sentence-is-pangram/)
 11. [Count Items Matching a Rule](https://leetcode.com/problems/count-items-matching-a-rule/)
 12. [Find the Highest Altitude](https://leetcode.com/problems/find-the-highest-altitude/)
+13. [Flipping an Image](https://leetcode.com/problems/flipping-an-image/)  
+14. [Cells with Odd Values in a Matrix](https://leetcode.com/problems/cells-with-odd-values-in-a-matrix/)
+15. [Matrix Diagonal Sum](https://leetcode.com/problems/matrix-diagonal-sum/)
