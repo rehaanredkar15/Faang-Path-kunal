@@ -17,3 +17,4 @@ This repository contains the problems solved for faangpath video series of kunal
 14. [Cells with Odd Values in a Matrix](https://leetcode.com/problems/cells-with-odd-values-in-a-matrix/)
 15. [Matrix Diagonal Sum](https://leetcode.com/problems/matrix-diagonal-sum/)
 16. [Find Numbers with Even Number of Digits](https://leetcode.com/problems/find-numbers-with-even-number-of-digits/)
+17. [Transpose Matrix](https://leetcode.com/problems/transpose-matrix/)
