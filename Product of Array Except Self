@@ -1,0 +1,29 @@
+class Solution {
+    public int[] productExceptSelf(int[] nums) {
+        
+        int n = nums.length;
+        int[] output = new int[n];
+        output[0] = 1;
+        for(int i = 1;i<n;i++)
+        {
+            output[i] = output[i-1] * nums[i-1];
+            // System.out.println(output[i]);
+            
+        }
+        int R = 1;
+        //at once we use only one of number so of the right array so we single variable 
+        for(int i = n-1;i>=0;i--)
+        {
+          output[i] = output[i] * R;
+            System.out.println("element is "+ output[i]);
+            
+            R = R * nums[i];
+            
+            System.out.println(R);
+            
+        }
+        
+        return output;
+        
+    }
+}
